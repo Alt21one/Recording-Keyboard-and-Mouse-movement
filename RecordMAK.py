@@ -36,7 +36,7 @@ class KeyAndMouse:
     def save_to_file(self):
         with open(self.KEYLOGS_FILE_PATH, 'w+') as f:
             f.write(str(self.GetKeyboardRecording()) + os.linesep)
-            print("It Been Save Successfully")
+            print("It have Been Save Successfully")
 
     def play_keyboard(self):
         key.play(self.GetKeyboardRecording())
@@ -46,6 +46,7 @@ class KeyAndMouse:
         mouselib.play(self.GetMouseRecording())
 
     def StartAutoClicker(self):
+        print("The AutoClicker Have been Started") 
         self.autoclicker_running = True 
         while self.autoclicker_running:
               mouselib.click(mouselib.LEFT)
@@ -56,6 +57,7 @@ class KeyAndMouse:
           print("The AutoClicker Have been Stopped")     
            
     def PlayingRecordMAK(self):
+       print("The Recording Have been Started")
        self.Recording_running = True
        while self.Recording_running:
             if self.recorded is None and self.mouse_events == []:
