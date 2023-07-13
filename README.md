@@ -5,7 +5,7 @@ This is a simple script for Keyboard and Mouse Recording It's Record you're Keyb
 You Just Start recording(F5) Then Stop Recording(F6) Then just Start(F8) And it will play you're mouse movement and keyboard keys.
 
 
-note: When you start Recording Please wait for 1 or 2 second Before Moving or press any key. 
+note: When you start Recording Please wait for 1 or 2 second Before Moving mouse or press any key. 
 
 
 
