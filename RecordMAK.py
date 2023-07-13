@@ -42,7 +42,6 @@ class KeyAndMouse:
         key.play(self.GetKeyboardRecording())
                  
     def play_mouse(self):
-        time.sleep(0.75)
         mouselib.play(self.GetMouseRecording())
 
     def StartAutoClicker(self):
@@ -73,5 +72,4 @@ class KeyAndMouse:
          print("The Recording Have been Stopped")   
 
             
-
 
